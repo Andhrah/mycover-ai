@@ -19,7 +19,7 @@ export default {
 
 <template>
   <main class="h-screen">
-    <section class="bg-fixed h-[90%] bg-image pl-36 pt-24">
+    <section class="bg-fixed h-[90%] bg-image pl-36 pt-36">
 
       <div class="flex w-[33%] bg-[#F9FAFB] rounded-3xl px-1 h-[2.125rem] border border-[#F2F4F7] items-center justify-between">
         <p class="bg-[#47BFA3] text-[#FFFFFF] rounded-3xl px-3 text-xs	h-[1.625rem] flex items-center">Just in!</p>
@@ -125,7 +125,7 @@ export default {
     
     </section>
 
-    <section class="text-center">
+    <section class="text-center text-[#1D2939] pb-20">
       <div class="flex h-8 bg-[#1849A9] w-[15.4375rem]">.</div>
 
       <h2 class="text-3xl font-bold mb-3 mt-10">Exciting insurance products for all sectors </h2>
@@ -133,10 +133,38 @@ export default {
         Build insurtech solutions with Distribute tailor made products with access to multiple insurance companies.
       </p>
 
-      <div>
-        <div></div>
-        <div></div>
-        <div></div>
+      <div class="flex justify-between px-36 mt-16">
+        <div class="flex items-center w-[22.9375rem] h-[8.25rem] border rounded-md border-[#DBDFE4] px-10 shadow-sm">
+          <img src="~/assets/images/home.svg" alt="home icon" class="h-8">
+          <h2 class="ml-8 text-xl">Home</h2>
+        </div>
+
+        <div class="flex items-center w-[22.9375rem] h-[8.25rem] border rounded-md border-[#DBDFE4] px-10 shadow-sm">
+          <img src="~/assets/images/auto.svg" alt="home icon" class="h-8">
+          <h2 class="ml-8 text-xl">Auto</h2>
+        </div>
+
+        <div class="flex items-center w-[22.9375rem] h-[8.25rem] border rounded-md border-[#DBDFE4] px-10 shadow-sm">
+          <img src="~/assets/images/gadgets.svg" alt="home icon" class="h-8">
+          <h2 class="ml-8 text-xl">Gadget</h2>
+        </div>
+      </div>
+
+      <div class="flex justify-between px-36 mt-8">
+        <div class="flex items-center w-[22.9375rem] h-[8.25rem] border rounded-md border-[#DBDFE4] px-10 shadow-sm">
+          <img src="~/assets/images/travel.svg" alt="home icon" class="h-8">
+          <h2 class="ml-8 text-xl">Travel</h2>
+        </div>
+
+        <div class="flex items-center w-[22.9375rem] h-[8.25rem] border rounded-md border-[#DBDFE4] px-10 shadow-sm">
+          <img src="~/assets/images/health.svg" alt="home icon" class="h-8">
+          <h2 class="ml-8 text-xl">Health</h2>
+        </div>
+
+        <div class="flex items-center w-[22.9375rem] h-[8.25rem] px-10">
+          <button class="ml-8 text-base text-[#47BFA3] mr-6">View more</button>
+          <i class="ri-arrow-right-s-line"></i>
+        </div>
       </div>
     </section>
   </main>
