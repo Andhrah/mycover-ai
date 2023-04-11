@@ -1,5 +1,11 @@
+<script>
+import 'remixicon/fonts/remixicon.css'
+</script>
+
 <template>
   <div>
-    <NuxtWelcome />
+    <NuxtLayout>
+      <NuxtPage/>
+    </NuxtLayout>
   </div>
 </template>
