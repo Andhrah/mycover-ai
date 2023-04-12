@@ -167,7 +167,7 @@ export default {
       </div>
     </section>
 
-    <section class="bg-[#FAFBFD] flex justify-between pl-36">
+    <section class="bg-[#FAFBFD] flex justify-between pl-36 text-[#1D2939]">
       <div class="pt-28">
         <h1 class="text-3xl">
           Manage all insurance activities from a unified platform
@@ -290,6 +290,68 @@ export default {
           </div>
         </div>
       </div>
+    </section>
+
+    <section class="bg-[#FFFFFF] text-[#1D2939] flex justify-between pl-36 pt-8">
+      <div class="pt-20">
+        <h1 class="text-3xl">
+          Insurance for any business model
+        </h1>
+
+        <p class="mt-6 text-xl font-light">
+          Our API is perfect for anyone, from non-digital businesses <br>to large fintech platforms to unlock new markets in <br>different ways.
+        </p>
+
+        <div class="flex justify-between mt-16">
+          <div class="flex w-[55%]">
+            <img src="~/assets/images/radio_btn_icon.svg" class="h-7 mt-1">
+            <div class="text-[#1D2939] ml-4">
+              <h1 class="text-xl font-bold mb-4">
+                Go Full White Label
+              </h1>
+
+              <p class="text-base font-normal text-[#475467]">Sell to customers directly <br>from your dashboard.</p>
+            </div>
+          </div>
+
+          <div class="flex w-[50%]">
+            <img src="~/assets/images/radio_btn_icon.svg" class="h-7 mt-1">
+            <div class="text-[#1D2939] ml-4">
+              <h1 class="text-xl font-bold mb-4">
+                Seamless Integration
+              </h1>
+
+              <p class="text-base font-normal text-[#475467]">Easy integrations without partnerships and compliance. </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex justify-between mt-16">
+          <div class="flex w-[55%]">
+            <img src="~/assets/images/radio_btn_icon.svg" class="h-7 mt-1">
+            <div class="text-[#1D2939] ml-4">
+              <h1 class="text-xl font-bold mb-4">
+                Semi White Label
+              </h1>
+
+              <p class="text-base font-normal text-[#475467]">Sell to customers directly <br>from your dashboard.</p>
+            </div>
+          </div>
+
+          <div class="flex w-[50%]">
+            <img src="~/assets/images/radio_btn_icon.svg" class="h-7 mt-1">
+            <div class="text-[#1D2939] ml-4">
+              <h1 class="text-xl font-bold mb-4">
+                No Platform
+              </h1>
+
+              <p class="text-base font-normal text-[#475467]">Sell to customers directly <br>from your dashboard.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <img src="~/assets/images/phone.svg" alt="dashoard image" class="">
     </section>
   </main>
 </template>
