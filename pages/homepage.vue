@@ -80,7 +80,7 @@ export default {
           <div class="flex flex-col px-16 items-start">
             <img src="~/assets/images/built.svg" alt="bolt logo" class="h-12">
             <h3 class="text-2xl font-bold my-12">Built for Anyone</h3>
-            <p class="text-xl font-light	mb-16">
+            <p class="text-xl font-light	mb-8">
               Direct access to several insurance companies in one place without worrying about multiple partnerships, integrations or compliance.
             </p>
           </div>
@@ -104,7 +104,7 @@ export default {
           <div class="flex flex-col px-16 items-start">
             <img src="~/assets/images/automated.svg" alt="bolt logo" class="h-12">
             <h3 class="text-2xl font-bold my-12">Automated Claim Management</h3>
-            <p class="text-xl font-light	mb-16">
+            <p class="text-xl font-light	mb-8">
               Your customers gets automated claim support, from notifications to loss assessments, and instant payouts using real-time data inputs.
             </p>
           </div>
@@ -122,7 +122,6 @@ export default {
           <img src="~/assets/images/home_design.png" alt="bolt logo" class="h-30 w-56">
         </div>
       </div>
-    
     </section>
 
     <section class="text-center text-[#1D2939] pb-20">
@@ -166,6 +165,64 @@ export default {
           <i class="ri-arrow-right-s-line"></i>
         </div>
       </div>
+    </section>
+
+    <section class="bg-[#FAFBFD] flex justify-between pl-36">
+      <div class="pt-28">
+        <h1 class="text-3xl">
+          Manage all insurance activities from a unified platform
+        </h1>
+
+        <div class="flex justify-between mt-16">
+          <div class="flex w-[55%]">
+            <img src="~/assets/images/radio_btn_icon.svg" class="h-7 mt-5">
+            <div class="text-[#1D2939] ml-4">
+              <h1 class="text-3xl leading-loose">
+                Designed for anyone
+              </h1>
+
+              <p class="text-xl font-normal">Sell to customers directly <br>from your dashboard.</p>
+            </div>
+          </div>
+
+          <div class="flex w-[50%]">
+            <img src="~/assets/images/radio_btn_icon.svg" class="h-7 mt-5">
+            <div class="ml-4 text-[#1D2939]">
+              <h1 class="text-3xl leading-loose">
+                Manage policies
+              </h1>
+
+              <p class="text-xl font-normal">Process, activate and track customer policies. </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex justify-between mt-16">
+          <div class="flex w-[55%]">
+            <img src="~/assets/images/radio_btn_icon.svg" class="h-7 mt-5">
+            <div class="text-[#1D2939] ml-4">
+              <h1 class="text-3xl leading-loose">
+                Claims handling
+              </h1>
+
+              <p class="text-xl font-normal">SReliably automate claims <br>in real-time.</p>
+            </div>
+          </div>
+
+          <div class="flex w-[50%]">
+            <img src="~/assets/images/radio_btn_icon.svg" class="h-7 mt-5">
+            <div class="ml-4 text-[#1D2939]">
+              <h1 class="text-3xl leading-loose">
+                Real-time analytics
+              </h1>
+
+              <p class="text-xl font-normal">Essential insights needed to grow your business.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <img src="~/assets/images/dashboard_img.svg" alt="dashoard image" class="">
     </section>
   </main>
 </template>
