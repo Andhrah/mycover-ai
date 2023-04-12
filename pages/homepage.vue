@@ -228,7 +228,7 @@ export default {
     <section>
       <div class="flex justify-between mt-32 contain-img px-32 h-[68.0625rem]">
         <div class="w-[55%] pt-32">
-          <h2 class="text-[#47BFA3] text-3xl leading-relaxed">Everything you need to start building</h2>
+          <h2 class="text-[#47BFA3] text-3xl leading-relaxed font-bold">Everything you need to start building</h2>
           <p class="text-white text-xl my-6">
             We understand the crux of good developer experience while interfacing with an API. Our developer-friendly guide will get you started in no time.
           </p>
@@ -294,7 +294,7 @@ export default {
 
     <section class="bg-[#FFFFFF] text-[#1D2939] flex justify-between pl-36 pt-8">
       <div class="pt-20">
-        <h1 class="text-3xl">
+        <h1 class="text-3xl font-bold">
           Insurance for any business model
         </h1>
 
@@ -351,7 +351,56 @@ export default {
         </div>
       </div>
       
-      <img src="~/assets/images/phone.svg" alt="dashoard image" class="">
+      <img src="~/assets/images/phone.svg" alt="phone image" class="">
+    </section>
+
+    <section class="bg-[#F9FAFB] pt-32 text-center px-36">
+      <h1 class="text-3xl font-bold">
+        All-in-one solution for your customers
+      </h1>
+
+      <p class="mt-6 text-xl font-light">
+        Increase retention by giving customers the convenience of a seamless insurance experience with our<br> user-friendly mobile app. Customers enjoy insurance from anywhere.
+      </p>
+
+      <div class="flex justify-between mt-16 items-center">
+        <div>
+          <div class="flex mb-4">
+            <img src="~/assets/images/radio_btn_icon.svg" class="h-7 mr-4">
+            <p class="text-[#47BFA3]">Policy Manangement</p>
+          </div>
+
+          <div class="flex mb-4">
+            <img src="~/assets/images/radio_btn_white.svg" class="h-7 mr-4">
+            <p class="text-[#344054]">Simple Wallet System</p>
+          </div>
+
+          <div class="flex mb-4">
+            <img src="~/assets/images/radio_btn_white.svg" class="h-7 mr-4">
+            <p class="text-[#344054]">Claims Management</p>
+          </div>
+
+          <div class="flex mb-4">
+            <img src="~/assets/images/radio_btn_white.svg" class="h-7 mr-4">
+            <p class="text-[#344054]">E-HMO ID</p>
+          </div>
+
+          <div class="flex mb-4">
+            <img src="~/assets/images/radio_btn_white.svg" class="h-7 mr-4">
+            <p class="text-[#344054]">Fraud-free Inspection</p>
+          </div>
+        </div>
+        <img src="~/assets/images/fancy_line.svg" class="">
+
+        <img src="~/assets/images/phone2.svg" alt="phone image" class="">
+
+        <div class="w-96 text-left">
+          <h2 class="text-2xl	 font-bold mb-4">Efficient Policy <br>Manangement</h2>
+          <p class="text-lg font-normal text-[#475467]">
+            Your customers have full control over policies purchased from you. The app is made to take the worry off you in managing all insurance activities.
+          </p>
+        </div>
+      </div>
     </section>
   </main>
 </template>
