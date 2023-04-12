@@ -15,6 +15,9 @@ export default {
 .contain-img {
   background: url('~/assets/images/dark_home_design.svg');
 }
+.join-img {
+  background: url('~/assets/images/dark_home_design2.svg');
+}
 </style>
 
 <template>
@@ -414,6 +417,58 @@ export default {
 
         <img src="~/assets/images/flutterwave.svg" alt="flutterwave logo" class="">
 
+      </div>
+    </section>
+
+    <section class="flex bg-[#F9FAFB] px-32 pt-24 justify-between">
+      <div class="text-[#1D2939] w-[30%]">
+        <h2 class="text-3xl leading-relaxed font-bold">Do you still have questions?</h2>
+        <p class="text-xl my-6">
+          Have a chat with anyone from our friendly team here
+        </p>
+
+        <Button class="text-white mt-4 w-48">Contact Us</Button>
+      </div>
+
+      <div class="w-[50%]">
+        <div class="bg-[#F2F4F7] p-8 border-b border-[#D0D5DD]">
+          <div class="flex justify-between text-[#1D2939] mb-4">
+            <p class="text-lg font-medium">Are you an Insurance Comapany?</p>
+            <i class="ri-arrow-up-s-line text-2xl"></i>
+          </div>
+          <p class="text-base text-[#344054]">
+            MyCover.ai is a product of the first insurtech in Nigeria. We enable any business to access multiple insurance companies and their products from one place.
+          </p>
+        </div>
+
+        <div class="flex justify-between text-[#1D2939] mb-4 h-[6.1875rem] items-center border-b border-[#D0D5DD]">
+          <p class="text-lg font-medium">How do I handle claims?</p>
+          <i class="ri-arrow-down-s-line text-2xl"></i>
+        </div>
+
+        <div class="flex justify-between text-[#1D2939] mb-4 h-[6.1875rem] items-center border-b border-[#D0D5DD]">
+          <p class="text-lg font-medium">Do I need to have an online platform?</p>
+          <i class="ri-arrow-down-s-line text-2xl"></i>
+        </div>
+
+        <div class="flex justify-between text-[#1D2939] mb-4 h-[6.1875rem] items-center border-b border-[#D0D5DD]">
+          <p class="text-lg font-medium">Do I need a license?</p>
+          <i class="ri-arrow-down-s-line text-2xl"></i>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="flex justify-between items-center join-img mt-20 pl-32 pt-16 pb-10 pr-16">
+        <div class="text-[#FFFFFF] w-[45%]">
+          <h2 class="text-5xl leading-relaxed font-bold mb-4">
+            Join our insurtech ecosystem to democratise insurance in <span class="text-[#47BFA3]">Africa.</span>
+          </h2>
+
+          <Button class="text-white mt-4 w-48">Get Started</Button>
+        </div>
+
+        <img src="~/assets/images/join_mycover.svg"  class="">
       </div>
     </section>
   </main>
