@@ -56,15 +56,15 @@ export default {
       <div class="flex justify-between items-center mt-10 mr-36">
         <img src="~/assets/images/Bolt.svg" alt="bolt logo" class="h-10 w-[4.125rem]">
 
-        <img src="~/assets/images/bitmama.svg" alt="bolt logo" class="">
+        <img src="~/assets/images/bitmama.svg" alt="bitmama logo" class="">
 
-        <img src="~/assets/images/black_copper.svg" alt="bolt logo" class="h-10 w-48">
+        <img src="~/assets/images/black_copper.svg" alt="blackcopper logo" class="h-10 w-48">
 
-        <img src="~/assets/images/jise.svg" alt="bolt logo" class="h-11 w-28">
+        <img src="~/assets/images/jise.svg" alt="jise logo" class="h-11 w-28">
 
-        <img src="~/assets/images/transtura.svg" alt="bolt logo" class="h-10 w-36">
+        <img src="~/assets/images/transtura.svg" alt="transtura logo" class="h-10 w-36">
 
-        <img src="~/assets/images/soft.svg" alt="bolt logo" class="h-12 w-48">
+        <img src="~/assets/images/soft.svg" alt="soft logo" class="h-12 w-48">
       </div>
 
       <div class="flex place-self-end h-6 bg-black w-[15.4375rem]">.</div>
@@ -400,6 +400,20 @@ export default {
             Your customers have full control over policies purchased from you. The app is made to take the worry off you in managing all insurance activities.
           </p>
         </div>
+      </div>
+    </section>
+
+    <section class="flex flex-col pl-32 pt-12 pb-20">
+      <p class="text-[#344054] text-xl">Brands that support us:</p>
+      <div class="flex justify-between items-center mt-10 mr-36">
+        <img src="~/assets/images/techstars.svg" alt="techstars logo" class="">
+
+        <img src="~/assets/images/techcabal.svg" alt="techcabal logo" class="">
+
+        <img src="~/assets/images/techtrend.svg" alt="techtrend logo" class="">
+
+        <img src="~/assets/images/flutterwave.svg" alt="flutterwave logo" class="">
+
       </div>
     </section>
   </main>
