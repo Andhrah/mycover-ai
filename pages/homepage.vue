@@ -471,5 +471,61 @@ export default {
         <img src="~/assets/images/join_mycover.svg"  class="">
       </div>
     </section>
+
+    <section>
+      <div class="flex justify-between mt-32 text-[#1D2939] px-32 pb-16">
+        <div>
+          <p class="text-3xl font-bold mb-3">PRODUCT CATEGORY</p>
+          <p class="text-sm mb-2 text-[#344054]">Health</p>
+          <p class="text-sm mb-2 text-[#344054]">Auto</p>
+          <p class="text-sm mb-2 text-[#344054]">Travel</p>
+          <p class="text-sm mb-2 text-[#344054]">Gadget</p>
+          <p class="text-sm mb-2 text-[#344054]">Office Content</p>
+          <p class="text-sm mb-2 text-[#344054]">Home</p>
+        </div>
+
+        <div>
+          <p class="text-3xl font-bold mb-3">COMPANY</p>
+          <p class="text-sm mb-2 text-[#344054]">About Us</p>
+          <p class="text-sm mb-2 text-[#344054]">Privacy Policy</p>
+          <p class="text-sm mb-2 text-[#344054]">Blog</p>
+          <p class="text-sm mb-2 text-[#344054]">Careers</p>
+          <p class="text-sm mb-2 text-[#344054]">Terms and Conditions</p>
+          <p class="text-sm mb-2 text-[#344054]">Mycovergenius</p>
+        </div>
+
+        <div class="w-[46%]">
+          <p class="text-3xl font-bold mb-3">ABOUT US</p>
+          <p class="text-sm mb-2 text-[#344054] leading-relaxed">
+            MyCover.ai is Africa's leading insurance infrastructure platform. We leverage artificial intelligence and machine learning to scale insurance penetration across the continent.<br>
+            Through our retail channel <span class="text-[#47BFA3] font-bold">mycovergenius,</span> we provide product-focused and technology-driven policies targeted at deepening insurance adoption in Africa; creating unique and relevant products in partnership with leading insurance companies. To us, insurance is not just about policies, it is Africa's surest safety net!
+          </p>
+        </div>
+      </div>
+
+      <div class="flex justify-between text-[#1D2939] px-32 pb-16">
+        <div>
+          <p class="text-3xl font-bold mb-3">CUSTOMER SUPPORT</p>
+          <p class="text-sm mb-2 text-[#344054]">Phone: +234 1234567889</p>
+          <p class="text-sm mb-2 text-[#344054]">info@mycover.ai</p>
+          <p class="text-sm mb-2 text-[#344054]">Hours: Mon. - Fri. 8AM - 5PM</p>
+        </div>
+
+        <div>
+          <p class="text-3xl font-bold mb-3">CONTACT</p>
+          <p class="text-sm mb-2 text-[#344054]">No 8, Province Estate, Maruwa <br>bust stop, Lekki Phase 1</p>
+          <div class="flex justify-between w-[60%]">
+            <i class="ri-facebook-box-fill text-3xl"></i>
+            <i class="ri-instagram-line text-3xl"></i>
+            <i class="ri-twitter-fill text-3xl"></i>
+          </div>
+        </div>
+
+        <div class="w-[46%]"></div>
+      </div>
+
+      <p class="text-sm mb-2 text-[#344054] pl-32 pb-24">Mycover.ai © 2021 / ALL RIGHTS RESERVED</p>
+
+    </section>
   </main>
 </template>
