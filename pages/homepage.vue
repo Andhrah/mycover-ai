@@ -13,7 +13,7 @@ export default {
   background: url('~/assets/images/home_bg.svg');
 }
 .contain-img {
-  background: url('~/assets/images/home_design.png');
+  background: url('~/assets/images/dark_home_design.svg');
 }
 </style>
 
@@ -223,6 +223,73 @@ export default {
       </div>
       
       <img src="~/assets/images/dashboard_img.svg" alt="dashoard image" class="">
+    </section>
+
+    <section>
+      <div class="flex justify-between mt-32 contain-img px-32 h-[68.0625rem]">
+        <div class="w-[55%] pt-32">
+          <h2 class="text-[#47BFA3] text-3xl leading-relaxed">Everything you need to start building</h2>
+          <p class="text-white text-xl my-6">
+            We understand the crux of good developer experience while interfacing with an API. Our developer-friendly guide will get you started in no time.
+          </p>
+
+          <Button class="text-white mt-4 w-48">Read docs</Button>
+
+          <div class="bg-[#1D2939] rounded-lg mt-14 p-10">
+
+            <div class="flex mb-14">
+              <img src="~/assets/images/radio_btn_icon.svg" class="h-7 mt-2">
+              <div class="text-white ml-4">
+                <h1 class="text-2xl mb-4">
+                  APIs
+                </h1>
+
+                <p class="text-xl font-light">
+                  Seamless API integrations designed to optimised user’s experience.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex mb-14">
+              <img src="~/assets/images/radio_btn_icon.svg" class="h-7 mt-2">
+              <div class="text-white ml-4">
+                <h1 class="text-2xl mb-4">
+                  SDKs
+                </h1>
+
+                <p class="text-xl font-light">
+                  Seamless API integrations designed to optimised user’s experience.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex mb-14">
+              <img src="~/assets/images/radio_btn_icon.svg" class="h-7 mt-2">
+              <div class="text-white ml-4">
+                <h1 class="text-2xl mb-4">
+                  Claims
+                </h1>
+
+                <p class="text-xl font-light">
+                  Reliably automate claims assessment with real-time data inputs, enabled by our API.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-16">
+          <div class="flex flex-col bg-[#1D2939] rounded-lg mt-14 py-6 ml-8 items-center">
+            <img src="~/assets/images/detail_logo.svg" class="mb-6">
+
+            <img src="~/assets/images/detail_img.svg" class="">
+          </div>
+
+          <div class="bg-[#1D2939] p-8 rounded-lg mt-6 ml-8">
+            <img src="~/assets/images/code_img.svg" class="">
+          </div>
+        </div>
+      </div>
     </section>
   </main>
 </template>
